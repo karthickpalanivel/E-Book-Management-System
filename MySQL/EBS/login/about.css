@@ -1,0 +1,55 @@
+body{
+            background-image: url("wallpaperflare.com_wallpaper (1).jpg");
+            background-size: cover;
+			background-repeat: no-repeat;
+			font-family: Arial, sans-serif;
+
+            color: white;
+            <p class="dotted">A dotted border.</p>
+
+        }
+
+.container {
+			width: 50%;
+			margin: 0 auto;
+			background-color:gray;
+			padding: 20px;
+			box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	        position:fixed;
+	        top:75px;
+
+		}
+
+
+		h2 {
+			color: black;
+			text-align: left;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+
+		p {
+			color: black;
+			font-size: 15px;
+			line-height: 1.25;
+		}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
