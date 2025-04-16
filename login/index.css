@@ -1,0 +1,55 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.start-btn {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color:gray;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 160px;
+
+}
+
+.start-btn:hover {
+  background-color: green;
+
+}
+body{
+  background-image: url("wallpaperflare.com_wallpaper (1).jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+.heading{
+      color: white;
+      position:fixed;
+      top: 350px;
+      left: 10px;
+}
